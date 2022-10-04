@@ -8,6 +8,8 @@
     <artifactId>soap</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>war</packaging>
+
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -41,7 +43,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>sender</finalName>
+        <finalName>soap</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

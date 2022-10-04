@@ -33,7 +33,7 @@ public class RouterSenderServiceImpl implements RouterSenderService {
         out.write(pdfBytes);
         out.close();
         for (String lector : lectorNickName) {
-            System.out.println("PDF SEND Lector this name =" + lector);
+            System.out.println(LocalDateTime.now()+" PDF SEND Lector this name =" + lector);
         }
     }
 }
